@@ -4,8 +4,19 @@ ISeaTel Practice Records
 ###Here is where miracle happens.
 ---
 
-Record
+
+PTC Practice Record
 ----
 
-* 9/16 [rank2, solved 4](http://140.114.86.238/scoreboard.php?cid=599)
+Date    | Rank      | Solved    | Solutions
+:------:|:------:   |:------:   |:----------:
+9/16    | 2         | 4         |[solution1]
     
+
+---
+Other
+----
+To be added.
+
+---
+[solution1]:https://github.com/ISeaTeL/PTC_Practice/tree/master/Practice1_Sep16
