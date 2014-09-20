@@ -3,30 +3,48 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
 
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
     <title>ISeaTel Practice Records by ISeaTeL</title>
   </head>
 
   <body>
+    <a id="forkme_banner" href="https://github.com/ISeaTeL/PTC_Practice">View on GitHub</a>
+    <div class="shell">
 
-    <header>
-      <div class="container">
-        <h1>ISeaTel Practice Records</h1>
-        <h2>Here is where miracle happens</h2>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>ISeaTel Practice Records</h1>
+            <h2>Here is where miracle happens</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-        <section id="downloads">
-          <a href="https://github.com/ISeaTeL/PTC_Practice/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/ISeaTeL/PTC_Practice/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/ISeaTeL/PTC_Practice" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/ISeaTeL/PTC_Practice/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/ISeaTeL/PTC_Practice/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
-    <div class="container">
+
+      <span class="banner-fix"></span>
+
+
       <section id="main_content">
         <h1>
 <a name="iseatel-practice-records" class="anchor" href="#iseatel-practice-records"><span class="octicon octicon-link"></span></a>ISeaTel Practice Records</h1>
@@ -35,13 +53,41 @@
 <a name="here-is-where-miracle-happens" class="anchor" href="#here-is-where-miracle-happens"><span class="octicon octicon-link"></span></a>Here is where miracle happens.</h3>
 
 <hr><h2>
-<a name="record" class="anchor" href="#record"><span class="octicon octicon-link"></span></a>Record</h2>
+<a name="ptc-practice-record" class="anchor" href="#ptc-practice-record"><span class="octicon octicon-link"></span></a>PTC Practice Record</h2>
 
-<ul>
-<li>9/16 <a href="http://140.114.86.238/scoreboard.php?cid=599">rank2, solved 4</a>
-</li>
-</ul>
+<table>
+<thead><tr>
+<th align="center">Date</th>
+<th align="center">Rank</th>
+<th align="center">Solved</th>
+<th align="center">Solutions</th>
+</tr></thead>
+<tbody><tr>
+<td align="center">9/16</td>
+<td align="center">2</td>
+<td align="center">4</td>
+<td align="center"><a href="https://github.com/ISeaTeL/PTC_Practice/tree/master/Practice1_Sep16">solution1</a></td>
+</tr></tbody>
+</table><hr><h2>
+<a name="other" class="anchor" href="#other"><span class="octicon octicon-link"></span></a>Other</h2>
+
+<p>To be added.</p>
+
+<hr>
       </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/ISeaTeL">ISeaTeL</a> can be found on <a href="https://github.com/ISeaTeL/PTC_Practice">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
     </div>
 
     
