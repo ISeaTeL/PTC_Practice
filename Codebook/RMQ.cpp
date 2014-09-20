@@ -9,7 +9,7 @@ void Compute_ST(int A[], int N) {
 		M[i][0] = i;
 	for (j = 1; 1 << j <= N ; j++) {
 		int sz = 1 << (j - 1); // block's half size
-		for (i = 0; i +  < N; i++) {
+		for (i = 0; i + sz < N; i++) {
 			if (A[M[i][j - 1]] <= A[M[i + sz][j - 1]])
 				M[i][j] = M[i][j - 1];
 			else
