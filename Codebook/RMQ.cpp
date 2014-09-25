@@ -1,4 +1,4 @@
-//RMQ - <O(NlgN), O(1)> approach
+//RMQ - <O(NlgN), O(1)> approach (using sparse table)
 #include <cstdio>
 #define MAXN 1000
 #define MAXLOGN 10

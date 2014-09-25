@@ -28,9 +28,11 @@ void build(int x) {
 }
 
 int main(int argc, char *argv[]) {
-	for (int i = 0; i < 10000; i++)
+	n = 10000;
+	for (int i = 1; i <= n; i++)
 		s[i] = 1;
-	build(10000);
-	printf("%d\n", query(3, 1333));
+	build(n);
+	add(3, 1000);
+	printf("%d\n", query(3, 1333)); //(1333-3+1)+1000=2331
 	return 0;
 }
