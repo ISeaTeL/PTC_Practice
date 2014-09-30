@@ -12,7 +12,7 @@ Date    | Rank      | Solved    | Problems		| Soultions
 :------:|:------:   |:------:   |:----------:	|:----------:
 9/16    | 2         | 4         |[problem1]		|[solution1]
 9/23    | 3         | 1         |[problem2]		|[solution2] 
-9/23	| 1			| 4			|[problem3]		|[solution3]
+9/30	| 1			| 4			|[problem3]		|[solution3]
 ---
 Other
 ----
